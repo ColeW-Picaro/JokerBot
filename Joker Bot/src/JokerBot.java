@@ -1,8 +1,3 @@
-/*Consumer Key (API Key)	lKHHOM44JTDNTE5jvL0GgwQrr
- * Consumer Secret (API Secret)	0H3uzgh0MwYLPhfHm3LhQLimom9oy2a76m5DxjqOYjQkSpGVF8
- * Access Token 	952099564940660737-8Zt53K78qIZSJbJtmBeyvzZjglfTVbm
- * Access Token Secret	cbfW9GbfdXRCNol2F0qkPJO7VPHq03t81hMts1GQHOazI
- * */
 import twitter4j.*;
 import twitter4j.auth.AccessToken;
 import java.io.IOException;
@@ -14,13 +9,13 @@ import java.util.Vector;
 
 
 public class JokerBot {
-	final static String consumerKey = "lKHHOM44JTDNTE5jvL0GgwQrr";
-	final static String consumerSecret = "0H3uzgh0MwYLPhfHm3LhQLimom9oy2a76m5DxjqOYjQkSpGVF8";
-	final static String accessToken = "952099564940660737-8Zt53K78qIZSJbJtmBeyvzZjglfTVbm";
-	final static String accessTokenSecret = "cbfW9GbfdXRCNol2F0qkPJO7VPHq03t81hMts1GQHOazI";
+	final static String consumerKey = "your_key_here";
+	final static String consumerSecret = "your_key_here";
+	final static String accessToken = "your_key_here";
+	final static String accessTokenSecret = "your_key_here";
 	final static int skipInterval = 3600000;
-	final static String quotes = "F:\\Eclipse\\Joker Bot\\quotes.txt";
-	final static int numQuotes = 51;
+	final static String quotes = "/home/user/JokerBot/quotes.txt";
+	final static int numQuotes = 0;
 	
 	public static void main (String[] args) throws TwitterException, IOException {
 		

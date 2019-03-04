@@ -4,8 +4,10 @@
   pleease help
 */
 
+// Local imports
 import twitter4j.*;
 import twitter4j.auth.AccessToken;
+// System imports
 import java.io.IOException;
 import java.util.Random;
 import java.util.Vector;
